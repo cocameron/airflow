@@ -17,33 +17,6 @@
 ---
 
 
-# Core
-- tests/models/test_dagbag.py::TestDagBag::test_load_subdags
-- tests/models/test_mappedoperator.py::test_expand_mapped_task_instance_with_named_index
-- tests/models/test_xcom.py::TestXCom::test_set_serialize_call_old_signature
-
-
 # WWW
-- tests/www/api/experimental/test_dag_runs_endpoint.py::TestDagRunsEndpoint::test_get_dag_runs_success
-- tests/www/api/experimental/test_dag_runs_endpoint.py::TestDagRunsEndpoint::test_get_dag_runs_success_with_capital_state_parameter
-- tests/www/api/experimental/test_dag_runs_endpoint.py::TestDagRunsEndpoint::test_get_dag_runs_success_with_state_no_result
-- tests/www/api/experimental/test_dag_runs_endpoint.py::TestDagRunsEndpoint::test_get_dag_runs_success_with_state_parameter
-- tests/www/api/experimental/test_endpoints.py::TestApiExperimental::test_dagrun_status
-- tests/www/api/experimental/test_endpoints.py::TestApiExperimental::test_get_dag_code
-- tests/www/api/experimental/test_endpoints.py::TestApiExperimental::test_info
-- tests/www/api/experimental/test_endpoints.py::TestApiExperimental::test_task_info
-- tests/www/api/experimental/test_endpoints.py::TestApiExperimental::test_task_instance_info
-- tests/www/api/experimental/test_endpoints.py::TestApiExperimental::test_trigger_dag
-- tests/www/api/experimental/test_endpoints.py::TestApiExperimental::test_trigger_dag_for_date
-- tests/www/api/experimental/test_endpoints.py::TestPoolApiExperimental::test_create_pool
-- tests/www/api/experimental/test_endpoints.py::TestPoolApiExperimental::test_create_pool_with_bad_name
-- tests/www/api/experimental/test_endpoints.py::TestPoolApiExperimental::test_delete_default_pool
-- tests/www/api/experimental/test_endpoints.py::TestPoolApiExperimental::test_delete_pool
-- tests/www/api/experimental/test_endpoints.py::TestPoolApiExperimental::test_delete_pool_non_existing
-- tests/www/api/experimental/test_endpoints.py::TestPoolApiExperimental::test_get_pool
-- tests/www/api/experimental/test_endpoints.py::TestPoolApiExperimental::test_get_pool_non_existing
-- tests/www/api/experimental/test_endpoints.py::TestPoolApiExperimental::test_get_pools
-- tests/www/views/test_views_acl.py::test_success
-- tests/www/views/test_views_rendered.py::test_rendered_task_detail_env_secret
 - tests/www/views/test_views_tasks.py::test_rendered_task_view
 - tests/www/views/test_views_tasks.py::test_views_get
